@@ -15,11 +15,11 @@ def collatz(x):
 
     if x % 2 == 0: #  even number
             x = x/2
-            print (x)
+            print (int(x))
             return (x)
     elif x % 2!=0: #  odd number       
             x = 3 * x + 1 
-            print (x)         
+            print (int(x))         
             return (x)
      
 x = int(input('print num:'))
