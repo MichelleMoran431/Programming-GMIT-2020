@@ -14,14 +14,13 @@ def collatz(x):
         return []
 
     if x % 2 == 0: #  even number
-            x = x/2
-            print (int(x))
+            x = x//2
+            print (x)
             return (x)
     elif x % 2!=0: #  odd number       
             x = 3 * x + 1 
             print (int(x))         
             return (x)
-     
 x = int(input('print num:'))
 
 while True:
