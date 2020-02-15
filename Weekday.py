@@ -1,7 +1,9 @@
 #write a program that outputs whether or not today is a weekday
+#ref# datetime module from topic 5 : lists in python presentation
+#https://docs.python.org/2/library/datetime.html
+#https://www.codespeedy.com/find-the-day-of-week-with-a-given-date-in-python/
 
-
-week_day = ['Monday','Tuesday', 'Wednesday' ,'Thursday','Friday' , 'Saturday ','Sunday']
+week_day = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday ","Sunday")
 #week_end = ['Saturday','Sunday']
 
 import datetime 
@@ -12,17 +14,33 @@ import datetime
 i = list(map(int, input ("Enter Date \n\n\n").split ('/')))
 
 # the variable day stores info (0 - 6) as integers#. and .weekday() returns the day of 
-#the week as integer
+#the date of the week as integer
 
-day=datetime.date (i [2],i [1],i[0]).weekday()
-print(week_day [day])
-
+day=datetime.date (i [2],i [1],i[0]).weekday() 
 
 
+#create a loop using the days in tuple as integers
+#ref :https://www.programiz.com/python-programming/if-elif-else
+
+print(week_day[day])
+#print(week_day[:6])
+if day <=4:
+    print ("it's a weekday")
+else:
+    print("its the weekend")
 
 
-#print ((week_day ), format ("yes, unfortunately its a week day"))
 
-#week_end=datetime.date (i[2],i[1],i[0]).weekday()
 
-#print (( week_end, format (" It is the weekend :,Yay")
+
+
+
+
+
+#weekday = (week_day[day]) 
+#weekend = week_day[5:6]
+#day = week_day,(0,4)
+#if day == (week_day,(0,4)):
+    #print (week_day [day]), "Yes unfortunately today is a weekday"
+#if day != (week_day,(0,4)):
+   #print (week_day [day]), "its the weekend YAY"
