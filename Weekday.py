@@ -1,3 +1,4 @@
+
 #write a program that outputs whether or not today is a weekday
 #ref# datetime module from topic 5 : lists in python presentation
 #https://docs.python.org/2/library/datetime.html

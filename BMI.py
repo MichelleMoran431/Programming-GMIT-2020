@@ -1,12 +1,18 @@
 # To Calculate the BMI using height in meters and weight in kg
 # Calculation weight/height (in m2)
 
-Height = float(input("Enter Height in meters; "))
-Weight = float(input("Enter Weight in kilograms; "))
 
-Heightsquared = (Height*Height)
+#Height = float(input("Enter Height in meters; "))
+#Weight = float(input("Enter Weight in kilograms; "))
 
-BMI = Weight/Heightsquared
-BMI2=(round (BMI,2))
-print ("your BMI is = ", BMI2)
+#Heightsquared = (Height*Height)
 
+#BMI = Weight/Heightsquared
+#BMI2=(round (BMI,2))
+#print ("your BMI is = ", BMI2)
+
+
+def BMI ( Height,Weight):
+    Height = float(input("Enter Height in meters; "))
+    Weight = float(input("Enter Weight in kilograms; "))
+    return round (Weight/Height**2 , 2)
