@@ -14,6 +14,8 @@ import datetime
 
 i = list(map(int, input ("Enter Date \n\n\n").split ('/')))
 
+#takes two arguments: A function and a list. In this case the function is int, and the list is the one from above. It executes the function once on each thing in the list, and returns the result. In this casse the function is int, which converts its argument to an integer (a whole number).
+
 # the variable day stores info (0 - 6) as integers#. and .weekday() returns the day of 
 #the date of the week as integer
 
@@ -25,7 +27,7 @@ day=datetime.date (i [2],i [1],i[0]).weekday()
 
 print(week_day[day])
 #print(week_day[:6])
-if day <=4:
+if day <=4: # days Mon - Fri
     print ("it's a weekday")
 else:
     print("its the weekend")
