@@ -12,7 +12,7 @@ def squareroot(n,acc):
     guess = n
     acc = 0.000001 
     diff = 1000
-    while (diff > acc): # a loop that states that while difference i greater than taccurcay , do the following steps.
+    while (diff > acc): # a loop that states that while difference is greater than accurcay , do the following steps.
 
         successor = ((guess +(n/guess))/2.0) #identify a solution to the question which what is the squareroot
         diff = abs (successor-guess) # rest the value of difference ( abs gives a positive value)

@@ -1,0 +1,30 @@
+# IPython log file
+
+get_ipython().run_line_magic('logstart', '')
+import numpy as np
+import matplotlib.pyplot as plt
+l = np. arange(0.0,4.0,1)
+l2=l**2
+l3-l**3
+plt.plot (l)
+plt.savefig ("l values")
+plt.clf()
+plt.plot (l2)
+plt.savefig ("l2  values")
+l3=l**3
+plt.plot (l3)
+plt.plot(l2)
+plt.plot(l)
+plt.plot(l2)
+plt.plot(l3)
+l2=l**2 
+l3-l*3  
+l = np. arange(0.0,4.0,1)
+plt.title("Week 8 Task plotting")
+plt.savefig
+l = np. arange(0.0,4.0,1)
+l2=l**2
+l3=l**3
+plt.hist(l)
+plt.hist(l2)
+plt.hist(l3)
