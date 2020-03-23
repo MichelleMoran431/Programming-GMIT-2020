@@ -12,7 +12,7 @@ sentence = (input ("Enter string :"))
 #reverse the sentence first
 
 
-#sentence = sentence[::-1]
+#sentence = sentence[::-1] option
 
 #print(sentence) uncomment this line to check the reverse if required
 

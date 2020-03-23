@@ -24,19 +24,15 @@ print = output the BMI
 
 Week 3# 
 
-Weekly task 3
+Weekly task 3 Secondstring.py
 
-Write a program that takes asks a user to input a string and outputs every second letter in reverse order.
+A program that asks a user to input a string and outputs every second letter in reverse order.
 
-So firstly to reverse the entered sentence [::-1] and then choose every second letter in the reversed string [::-2]
+Intially I reverse the string using [::-1] and then choose every second letter in the reversed string [::-2]
 
-python secondstring.py
-Please enter a sentence: The quick brown fox jumps over the lazy dog.
-.o zletrv pu o wr cu h
+reference : Andrew Beatty review mail - suggested a less complicated way. Removing the need to  reverse sentence and just use : 
+print ("This is my sentence with every second letter in reverse order :",sentence[::-2])
 
-second string example used : The green grass isnt always 
-output: Enter string :The green grass isnt always greener  
-This is my sentence with every second letter in reverse order rnegsal nisagnegeT
 
 Weekly task 4
 

@@ -12,14 +12,15 @@ import datetime
 # split function splits the enter date into
 #date,month,year and then the map function changes it into integers
 
-i = list(map(int, input ("Enter Date \n\n\n").split ('/')))
-
+#i = list(map(int, input ("Enter Date \n\n\n").split ('/')))
+today= (input ("todays date :"))
 #takes two arguments: A function and a list. In this case the function is int, and the list is the one from above. It executes the function once on each thing in the list, and returns the result. In this casse the function is int, which converts its argument to an integer (a whole number).
 
 # the variable day stores info (0 - 6) as integers#. and .weekday() returns the day of 
 #the date of the week as integer
 
-day=datetime.date (i [2],i [1],i[0]).weekday() 
+#day=datetime.date (i [2],i [1],i[0]).weekday() 
+day=datetime.datetime.today().weekday() 
 
 
 #create a loop using the days in tuple as integers
