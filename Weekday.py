@@ -41,6 +41,8 @@ else:
 
 
 
+
+
 #weekday = (week_day[day]) 
 #weekend = week_day[5:6]
 #day = week_day,(0,4)
