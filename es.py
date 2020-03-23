@@ -26,8 +26,8 @@ with open ("C:\\Users\\User\\Desktop\\Programming-GMIT-2020\\moby dick.txt",'r')
     k = 0
     
     for line in f:
-        words = line.split() #Each line is split into a list of words using split().
-        for i in words: #loop is used to traverse through the words list and another for loop is used to traverse through the letters in the word.
+        #words = line.split() #Each line is split into a list of words using split().
+        for i in line: #loop is used to traverse through the words list and another for loop is used to traverse through the letters in the word.
             for letter in i:
                 if(letter==l):#If the letter provided by the user and the letter encountered over iteration are equal, the letter count is incremented.
                     k=k+1
