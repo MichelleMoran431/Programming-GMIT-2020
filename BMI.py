@@ -12,7 +12,3 @@ BMI2=(round (BMI,2)) # to add a round to ensure BMI result is to 2 decimals plac
 print ("your BMI is = ", BMI2) # report the BMI of the user
 
 
-#def BMI ( Height,Weight):
-    #Height = float(input("Enter Height in meters; "))
-    #Weight = float(input("Enter Weight in kilograms; "))
-    #return round (Weight/Height**2 , 2)
